@@ -1,0 +1,51 @@
+method_id: battery_rul_kiki0016_state_of_health_estimation_of_electric_vehicle_batteries_using_detransformer_df60d4
+name: KiKi0016/State-of-Health-Estimation-of-Electric-Vehicle-Batteries-Using-DeTransformer
+domain: battery_rul
+status: candidate
+source: github
+repo_info:
+  name: KiKi0016/State-of-Health-Estimation-of-Electric-Vehicle-Batteries-Using-DeTransformer
+  url: https://github.com/KiKi0016/State-of-Health-Estimation-of-Electric-Vehicle-Batteries-Using-DeTransformer
+  owner: KiKi0016
+  description: Deep learning of lithium-ion battery SOH using the DeTransformer model
+    learns the aging characteristics of the battery and then makes predictions about
+    the battery SOH in order to monitor the health of batteries in electric vehicles.
+  stars: 67
+  forks: 6
+  topics:
+  - deep-learning
+  - lithium-ion-batteries
+  - prediction
+  - remaining-useful-life-prediction
+  - soh-estimation
+  - transformer
+  language: Python
+  updated_at: '2026-03-26T13:59:55Z'
+  readme_excerpt: "# State-of-Health-Estimation-of-Electric-Vehicle-Batteries-Using-DeTransformer\n\
+    Deep learning of lithium-ion battery SOH using the DeTransformer model learns\
+    \ the aging characteristics of the battery and then makes predictions about the\
+    \ battery SOH in order to monitor the health of batteries in electric vehicles.\n\
+    \n# Prerequisites\n### Dependencies\n```\npython==3.10.12\nCUDA==11.8\npytorch==2.1.0\n\
+    numpy==1.26.0\npandas==2.1.1\nmatplotlib==3.8.0\nh5py==3.10.0\nscipy==1.11.3\n\
+    tqdm==4.66.1\ntensorboardX==2.6.2.2\n```\n\n\n# Dataset  \n\nWe employed a publicly\
+    \ available dataset from the paper ['Data driven prediciton of battery cycle life\
+    \ before capacity degradation' by K.A. Severson, P.M. Attia, et al](https://www.nature.com/articles/s41560-019-0356-8).\
+    \ \n\nThe dataset are available at ['TOYOTA RESEARCH INSTITUTE'](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204):\n\
+    * '2017-05-12_batchdata_updated_struct_errorcorrect.mat'\n* '2017-06-30_batchdata_updated_struct_errorcorrect.mat'\n\
+    * '2018-04-12_batchdata_u"
+method_info:
+  type: transformer
+  description: 'Method extracted from GitHub repo: KiKi0016/State-of-Health-Estimation-of-Electric-Vehicle-Batteries-Using-DeTransformer'
+  reported_metrics: {}
+  implementation_available: true
+timeline:
+  extracted: '2026-04-09T17:20:12.740762'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: high
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by GitHub monitor on 2026-04-09T17:20:12.740762

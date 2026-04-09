@@ -1,0 +1,59 @@
+method_id: battery_rul_bartels_2026_e9cb66
+name: 'Bridging Natural Language and Microgrid Dynamics: A Context-Aware Simulator
+  and Dataset'
+domain: battery_rul
+status: candidate
+source: arxiv
+paper_info:
+  title: 'Bridging Natural Language and Microgrid Dynamics: A Context-Aware Simulator
+    and Dataset'
+  authors:
+  - Tinko Sebastian Bartels
+  - Ruixiang Wu
+  - Xinyu Lu
+  - Yikai Lu
+  - Fanzeng Xia
+  - Haoxiang Yang
+  - Yue Chen
+  - Tongxin Li
+  url: https://arxiv.org/pdf/2604.05429v2
+  arxiv_id: 2604.05429v2
+  published: '2026-04-07T04:52:51+00:00'
+  categories:
+  - eess.SY
+  - cs.AI
+  - cs.CL
+  abstract: 'Addressing the critical need for intelligent, context-aware energy management
+    in renewable systems, we introduce the OpenCEM Simulator and Dataset: the first
+    open-source digital twin explicitly designed to integrate rich, unstructured contextual
+    information with quantitative renewable energy dynamics. Traditional energy management
+    relies heavily on numerical time series, thereby neglecting the significant predictive
+    power embedded in human-generated context (e.g., event schedules, system logs,
+    user intentions). OpenCEM bridges this gap by offering a unique platform comprising
+    both a meticulously aligned, language-rich dataset from a real-world PV-and-battery
+    microgrid installation and a modular simulator capable of natively processing
+    this multi-modal context. The OpenCEM Simulator provides a high-fidelity environment
+    for developing and validating novel control algorithms and prediction models,
+    particularly those leveraging Large Language Models. We detail its component-based
+    architecture, hybrid data-driven and physics-based modelling capabilities, and
+    demonstrate its utility through practical examples, including context-aware load
+    forecasting and the implementation of online optimal battery charging control
+    strategies. By making this platform publicly available, OpenCEM aims to accelerate
+    research into the next generation of intelligent, sustainable, and truly context-aware
+    energy systems.'
+method_info:
+  type: hybrid
+  description: 'Method extracted from arXiv paper: Bridging Natural Language and Microgrid
+    Dynamics: A Context-Aware Simulator and Dataset'
+  reported_metrics: {}
+timeline:
+  extracted: '2026-04-09T17:19:34.754794'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: medium
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by arXiv monitor on 2026-04-09T17:19:34.754794

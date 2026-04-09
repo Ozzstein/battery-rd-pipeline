@@ -1,0 +1,41 @@
+method_id: battery_rul_chan1w_rul_exformer_dc9236
+name: Chan1w/RUL-Exformer
+domain: battery_rul
+status: candidate
+source: github
+repo_info:
+  name: Chan1w/RUL-Exformer
+  url: https://github.com/Chan1w/RUL-Exformer
+  owner: Chan1w
+  description: 'Remaining Useful Life Prediction of lithium-ion Battery '
+  stars: 25
+  forks: 1
+  topics: []
+  language: Python
+  updated_at: '2026-03-14T05:43:12Z'
+  readme_excerpt: "# \U0001F680 RUL-Prediction  \n## Exponential Transformer for Interpretable\
+    \ Remaining Useful Life Prediction of Lithium-Ion Batteries\n\n[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]()\n\
+    [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)]()\n[![IEEE TTE](https://img.shields.io/badge/Published-IEEE%20Transactions%20on%20Transportation%20Electrification-005BAC.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316)\n\
+    [![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://ieeexplore.ieee.org/abstract/document/10852358)\n\
+    \n---\n\n## \U0001F4D6 Paper\n\n**An Exponential Transformer for Learning Interpretable\
+    \ Temporal Information in Remaining Useful Life Prediction of Lithium-Ion Battery**\n\
+    \nChenhan Wang, Zhengyi Bao, Huipin Lin, Zhiwei He, Mingyu Gao  \n\nPublished\
+    \ in **IEEE Transactions on Transportation Electrification (TTE), 2025**  \nDOI:\
+    \ 10.1109/TTE.2025.3534146  \n\nThis repository provides the official implementation\
+    \ of the proposed **Exponential Transform"
+method_info:
+  type: transformer
+  description: 'Method extracted from GitHub repo: Chan1w/RUL-Exformer'
+  reported_metrics: {}
+  implementation_available: true
+timeline:
+  extracted: '2026-04-09T17:20:10.543577'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: high
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by GitHub monitor on 2026-04-09T17:20:10.543577

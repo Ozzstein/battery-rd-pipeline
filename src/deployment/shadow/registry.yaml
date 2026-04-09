@@ -1,0 +1,20 @@
+# Shadow Mode Methods Registry
+# Tracks methods currently running in shadow mode (parallel to production)
+
+methods: []
+
+# Monitoring configuration
+monitoring:
+  check_interval: hourly
+  divergence_threshold: 15.0  # percent
+  latency_multiplier_threshold: 5.0
+  error_rate_threshold: 0.10  # 10%
+
+# Production baseline
+production:
+  method_id: null
+  deployed_date: null
+  last_evaluation: null
+
+# Alert history
+alerts: []

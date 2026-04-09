@@ -1,0 +1,23 @@
+# Battery R&D Pipeline - Method Registry
+
+# This file tracks all methods in the basket across their lifecycle
+# Status: active | shadow | archived | rejected
+
+methods: []
+
+# Statistics
+stats:
+  total_methods: 0
+  active: 0
+  shadow: 0
+  archived: 0
+  rejected: 0
+  
+# Current production method
+production:
+  method_id: null
+  promoted_date: null
+  
+# Last quarterly cycle
+last_quarterly_cycle: null
+next_quarterly_cycle: 2026-07-01

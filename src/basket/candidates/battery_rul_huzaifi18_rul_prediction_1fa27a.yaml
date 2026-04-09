@@ -1,0 +1,50 @@
+method_id: battery_rul_huzaifi18_rul_prediction_1fa27a
+name: huzaifi18/RUL_prediction
+domain: battery_rul
+status: candidate
+source: github
+repo_info:
+  name: huzaifi18/RUL_prediction
+  url: https://github.com/huzaifi18/RUL_prediction
+  owner: huzaifi18
+  description: The project focused on "Battery Remaining Useful Life (RUL) Prediction
+    using a Data-Driven Approach with a Hybrid Deep Model combining Convolutional
+    Neural Networks (CNN) and Long-Short Term Memory (LSTM)." This repository aims
+    to revolutionize battery health estimation by leveraging the power of deep learning
+    to predict the remaining useful life
+  stars: 112
+  forks: 17
+  topics:
+  - lithium-ion-batteries
+  - remaining-useful-life-prediction
+  - rul
+  language: Python
+  updated_at: '2026-03-31T14:15:28Z'
+  readme_excerpt: "# A Hybrid CNN-LSTM for Battery Remaining Useful Life Prediction\
+    \ with Charging Profiles Data\n[![DOI:10.1145/3575882.3575903](http://img.shields.io/badge/DOI-10.1145/3575882.3575903-1481c1.svg)](https://doi.org/10.1145/3575882.3575903)\n\
+    \n+ Battery RUL prediction using data-driven method based on a hybrid deep model\
+    \ of Convolutional Neural Networks (CNN) and Long-Short Term Memory (LSTM).\n\
+    + CNN and LSTM are used to extract features from multiple measurable data (Voltage,\
+    \ Current, Temperature, Capacity) in parallel.\n+ CNN extracts features of multi-channel\
+    \ charging profiles, whereas LSTM extracts features of historical capacity data\
+    \ of discharging profiles which related to time dependency.\n+ This repository\
+    \ provides the code for training in python.\n---\n### Framework:\n![Contoh Gambar](framework.png)\n\
+    + Voltage (V), Current (I), and Temperature (T) inputs will each get in the CNN\
+    \ layer separately.\n  + Feature V gets into a different CNN layer with features\
+    \ I and T, as well as a feature I get "
+method_info:
+  type: lstm
+  description: 'Method extracted from GitHub repo: huzaifi18/RUL_prediction'
+  reported_metrics: {}
+  implementation_available: true
+timeline:
+  extracted: '2026-04-09T17:20:11.925755'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: high
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by GitHub monitor on 2026-04-09T17:20:11.925755

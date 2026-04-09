@@ -1,0 +1,75 @@
+# Battery R&D Pipeline - Cron Job Configuration
+# Schedule for Research Agent team monitors
+
+# Research Agents - Daily/Weekly Scans
+jobs:
+  # Daily arXiv scan at 9 AM
+  - name: research-arxiv-daily
+    schedule: "0 9 * * *"
+    agent: research
+    task: "Scan arXiv for new battery RUL papers"
+    script: "src/research/arxiv_monitor.py"
+    enabled: true
+
+  # Weekly journal scan on Monday at 10 AM
+  - name: research-journals-weekly
+    schedule: "0 10 * * 1"
+    agent: research
+    task: "Scan journals for new methods"
+    script: "src/research/journal_monitor.py"
+    enabled: true
+
+  # Daily GitHub scan at 11 AM
+  - name: research-github-daily
+    schedule: "0 11 * * *"
+    agent: research
+    task: "Scan GitHub for new repos"
+    script: "src/research/github_monitor.py"
+    enabled: true
+
+  # PDF inbox processing (continuous via file watcher)
+  - name: research-pdf-watcher
+    schedule: "*/30 * * * *"
+    agent: research
+    task: "Process PDFs in inbox directory"
+    script: "src/research/pdf_processor.py"
+    enabled: true
+
+  # Full research team scan (weekly summary)
+  - name: research-full-scan
+    schedule: "0 8 * * 0"
+    agent: research
+    task: "Run all monitors and generate weekly summary"
+    script: "src/research/__init__.py"
+    enabled: true
+
+# Deployment Monitor - Continuous Monitoring
+  - name: deployment-shadow-monitor
+    schedule: "0 * * * *"
+    agent: deployment
+    task: "Compare shadow vs production predictions"
+    script: "src/deployment/shadow_monitor.py"
+    enabled: false  # Not yet implemented
+
+# Basket Agent - Monthly Reports
+  - name: basket-monthly-report
+    schedule: "0 12 1 * *"
+    agent: basket
+    task: "Generate monthly basket report"
+    script: "src/basket/monthly_report.py"
+    enabled: false  # Not yet implemented
+
+# Quarterly Development Cycle
+  - name: quarterly-development-cycle
+    schedule: "0 9 1 1,4,7,10 *"
+    agent: orchestrator
+    task: "Start quarterly development cycle"
+    script: "src/orchestrator.py --quarterly-cycle"
+    enabled: false  # Not yet implemented
+
+# Settings
+settings:
+  timezone: "UTC"
+  log_dir: "logs"
+  notify_on_error: true
+  notify_on_complete: false

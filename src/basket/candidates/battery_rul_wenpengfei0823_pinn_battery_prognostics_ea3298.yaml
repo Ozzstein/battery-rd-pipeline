@@ -1,0 +1,53 @@
+method_id: battery_rul_wenpengfei0823_pinn_battery_prognostics_ea3298
+name: WenPengfei0823/PINN-Battery-Prognostics
+domain: battery_rul
+status: candidate
+source: github
+repo_info:
+  name: WenPengfei0823/PINN-Battery-Prognostics
+  url: https://github.com/WenPengfei0823/PINN-Battery-Prognostics
+  owner: WenPengfei0823
+  description: State of Health (SoH) and Remaining Useful Life (RUL) prediction for
+    Li-ion batteries based on Physics-Informed Neural Networks (PINN).
+  stars: 274
+  forks: 37
+  topics: []
+  language: Python
+  updated_at: '2026-04-09T08:42:14Z'
+  readme_excerpt: '# PINN_Battery_Prognostics
+
+
+    This repository includes the code and data for the paper "***Physics-Informed
+    Neural Networks for Prognostics and Health Management of Lithium-Ion Batteries***"
+
+
+    ## Abstract
+
+
+    For Prognostics and Health Management (PHM) of Lithium-ion (Li-ion) batteries,
+    many models have been established to characterize their degradation process. The
+    existing empirical or physical models can reveal important information regarding
+    the degradation dynamics. However, there are no general and flexible methods to
+    fuse the information represented by those models. Physics-Informed Neural Network
+    (PINN) is an efficient tool to fuse empirical or physical dynamic models with
+    data-driven models. To take full advantage of various information sources, we
+    propose a model fusion scheme based on PINN. It is implemented by developing a
+    semi-empirical semi-physical Partial Differential Equation (PDE) to model the
+    degradation dynamics of Li-ion batteries. When there is little prior knowledge
+    ab'
+method_info:
+  type: neural network
+  description: 'Method extracted from GitHub repo: WenPengfei0823/PINN-Battery-Prognostics'
+  reported_metrics: {}
+  implementation_available: true
+timeline:
+  extracted: '2026-04-09T17:20:11.375381'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: high
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by GitHub monitor on 2026-04-09T17:20:11.375381

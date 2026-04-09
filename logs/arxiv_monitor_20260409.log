@@ -1,0 +1,60 @@
+[2026-04-09 17:16:43] ============================================================
+[2026-04-09 17:16:43] Starting arXiv scan for battery RUL papers
+[2026-04-09 17:16:43] ============================================================
+[2026-04-09 17:16:44] Query '(battery remaining useful life) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:03] ============================================================
+[2026-04-09 17:17:03] Starting arXiv scan for battery RUL papers
+[2026-04-09 17:17:03] ============================================================
+[2026-04-09 17:17:04] Query '(battery remaining useful life) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:08] Query '(lithium-ion battery degradation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:13] Query '(battery RUL prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:17] Query '(battery health estimation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:21] Query '(battery state of health) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:25] Query '(lithium-ion capacity fade) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:29] Query '(battery cycle life prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:34] Query '(battery prognostics) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:39] Query '(electrochemical impedance spectroscopy battery) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:44] Query '(battery neural network prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:17:44] ============================================================
+[2026-04-09 17:17:44] Scan complete: 0 relevant papers, 0 new candidates
+[2026-04-09 17:17:44] ============================================================
+[2026-04-09 17:18:08] ============================================================
+[2026-04-09 17:18:08] Starting arXiv scan for battery RUL papers
+[2026-04-09 17:18:08] ============================================================
+[2026-04-09 17:18:08] Query '(battery remaining useful life) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:11] Query '(lithium-ion battery degradation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:14] Query '(battery RUL prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:17] Query '(battery health estimation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:20] Query '(battery state of health) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:23] Query '(lithium-ion capacity fade) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:26] Query '(battery cycle life prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:29] Query '(battery prognostics) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:32] Query '(electrochemical impedance spectroscopy battery) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:35] Query '(battery neural network prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:18:35] ============================================================
+[2026-04-09 17:18:35] Scan complete: 0 relevant papers, 0 new candidates
+[2026-04-09 17:18:35] ============================================================
+[2026-04-09 17:19:13] ============================================================
+[2026-04-09 17:19:13] Starting arXiv scan for battery RUL papers
+[2026-04-09 17:19:13] ============================================================
+[2026-04-09 17:19:13] Query '(battery remaining useful life) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:16] Query '(lithium-ion battery degradation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:31] ============================================================
+[2026-04-09 17:19:31] Starting arXiv scan for battery RUL papers
+[2026-04-09 17:19:31] ============================================================
+[2026-04-09 17:19:31] Query '(battery remaining useful life) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:34] Query '(lithium-ion battery degradation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:34] Saved candidate: battery_rul_bartels_2026_e9cb66
+[2026-04-09 17:19:37] Query '(battery RUL prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:40] Query '(battery health estimation) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:43] Query '(battery state of health) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:46] Query '(lithium-ion capacity fade) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:49] Query '(battery cycle life prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:52] Query '(battery prognostics) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:52] Candidate battery_rul_bartels_2026_e9cb66 already exists, skipping
+[2026-04-09 17:19:55] Query '(electrochemical impedance spectroscopy battery) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:55] Candidate battery_rul_bartels_2026_e9cb66 already exists, skipping
+[2026-04-09 17:19:58] Query '(battery neural network prediction) AND (cat:cs.LG OR cat:eess.SP OR cat:physics.data-an OR cat:cs.AI OR cat:stat.ML)': found 50 results
+[2026-04-09 17:19:58] ============================================================
+[2026-04-09 17:19:58] Scan complete: 3 relevant papers, 1 new candidates
+[2026-04-09 17:19:58] ============================================================

@@ -1,0 +1,56 @@
+method_id: battery_rul_ustc-ai4eee_patchformer_f58330
+name: USTC-AI4EEE/PatchFormer
+domain: battery_rul
+status: candidate
+source: github
+repo_info:
+  name: USTC-AI4EEE/PatchFormer
+  url: https://github.com/USTC-AI4EEE/PatchFormer
+  owner: USTC-AI4EEE
+  description: A Novel Patch-Based Transformer for Accurate Remaining Useful Life
+    Prediction of Lithium-Ion Batteries
+  stars: 37
+  forks: 2
+  topics: []
+  language: Python
+  updated_at: '2026-03-24T06:07:45Z'
+  readme_excerpt: '# A Novel Patch-Based Transformer for Accurate Remaining Useful
+    Life Prediction of Lithium-Ion Batteries
+
+
+    > **Authors:**
+
+    Lei Liu, Jiahui Huang, Hongwei Zhao, Tianqi Li, Bin Li.
+
+
+    This repo contains the code and data from our paper published in Journal of Power
+    Sources [A Novel Patch-Based Transformer for Accurate Remaining Useful Life Prediction
+    of Lithium-Ion Batteries](Paper: https://www.sciencedirect.com/science/article/pii/S0378775325000230).
+
+
+    ## 1. Abstract
+
+
+    Accurate prediction of the remaining useful life (RUL) of lithium-ion batteries
+    is critical for ensuring their safe and reliable operation. Nevertheless, achieving
+    precise RUL prediction presents significant challenges due to the intricate degradation
+    mechanisms inherent in battery systems and the influence of operational noise,
+    particularly the capacity regeneration phenomena. To address these issues, we
+    propose a novel patch-based transformer (PatchFormer). The proposed architecture
+    incorporates a Dual Patch-wise Attention Ne'
+method_info:
+  type: transformer
+  description: 'Method extracted from GitHub repo: USTC-AI4EEE/PatchFormer'
+  reported_metrics: {}
+  implementation_available: true
+timeline:
+  extracted: '2026-04-09T17:20:10.296121'
+  implemented: null
+  shadow_start: null
+  promoted: null
+evaluation:
+  priority: high
+  selected: false
+  selection_date: null
+  evaluation_report: null
+notes: Automatically extracted by GitHub monitor on 2026-04-09T17:20:10.296121
