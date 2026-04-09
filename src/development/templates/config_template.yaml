@@ -1,0 +1,96 @@
+# LSTM Baseline Configuration
+# Battery RUL Estimation
+
+# =============================================================================
+# Model Architecture
+# =============================================================================
+model:
+  type: "lstm"
+  input_dim: 10          # Number of input features (will be auto-detected)
+  hidden_dim: 64         # LSTM hidden dimension
+  num_layers: 2          # Number of LSTM layers
+  dropout: 0.2           # Dropout rate
+
+# =============================================================================
+# Training Hyperparameters
+# =============================================================================
+training:
+  epochs: 100            # Maximum training epochs
+  batch_size: 32         # Batch size
+  learning_rate: 0.001   # Initial learning rate
+  lr_scheduler: "reduce_on_plateau"  # reduce_on_plateau, step, cosine
+  lr_patience: 10        # Epochs to wait before reducing LR
+  lr_factor: 0.5         # LR reduction factor
+  early_stopping: true
+  early_stopping_patience: 15  # Epochs to wait before early stopping
+  min_delta: 0.0001      # Minimum change in val loss to qualify as improvement
+
+# =============================================================================
+# Data Preprocessing
+# =============================================================================
+data:
+  sequence_length: 50    # Number of cycles per sequence
+  normalize_features: true
+  normalize_targets: true
+  train_val_split: 0.8   # Train/validation split ratio
+  random_seed: 42
+
+# =============================================================================
+# Feature Engineering
+# =============================================================================
+features:
+  # List of features to use (from battery_cycles table)
+  # Available: capacity, v_charge, v_discharge, i_charge, i_discharge, 
+  #            impedance, temperature, cycle
+  include:
+    - capacity
+    - v_charge
+    - v_discharge
+    - i_charge
+    - i_discharge
+    - impedance
+    - temperature
+  
+  # Derived features
+  derived:
+    - name: "capacity_fade"
+      formula: "capacity.diff()"  # Capacity change from previous cycle
+    - name: "voltage_range"
+      formula: "v_charge - v_discharge"
+    - name: "power_charge"
+      formula: "v_charge * i_charge"
+    - name: "power_discharge"
+      formula: "v_discharge * i_discharge"
+
+# =============================================================================
+# Evaluation Metrics
+# =============================================================================
+metrics:
+  - mae           # Mean Absolute Error
+  - rmse          # Root Mean Square Error
+  - mape          # Mean Absolute Percentage Error
+  - r2            # R-squared
+  - accuracy_10   # % predictions within 10% error
+  - accuracy_20   # % predictions within 20% error
+
+# =============================================================================
+# Experiment Tracking
+# =============================================================================
+tracking:
+  wandb: true      # Enable Weights & Biases tracking
+  project: "battery-rd-pipeline"
+  tags:
+    - "lstm"
+    - "baseline"
+    - "rul-estimation"
+  notes: "LSTM baseline for battery RUL estimation"
+
+# =============================================================================
+# Checkpointing
+# =============================================================================
+checkpoint:
+  save_best: true          # Save best model (lowest val loss)
+  save_last: true          # Save last epoch
+  save_every: null         # Save every N epochs (null = only best/last)
+  monitor: "val_loss"      # Metric to monitor for best model
+  mode: "min"              # min or max
